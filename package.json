@@ -1,0 +1,50 @@
+{
+  "name": "ng2-map.github.io",
+  "version": "0.1.0",
+  "description": "Angular2 Google Map",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -o -p 9003",
+    "build": "./build.sh"
+  },
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/common": "2.0.0-rc.5",
+    "@angular/compiler": "2.0.0-rc.5",
+    "@angular/core": "2.0.0-rc.5",
+    "@angular/forms": "0.3.0",
+    "@angular/http": "2.0.0-rc.5",
+    "@angular/platform-browser": "2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.5",
+    "@angular/router": "3.0.0-rc.1",
+    "@angular/router-deprecated": "2.0.0-rc.2",
+    "@angular/upgrade": "2.0.0-rc.5",
+    "systemjs": "0.19.27",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12",
+    "angular2-in-memory-web-api": "0.0.15",
+    "bootstrap": "^3.3.6",
+    "http-server": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng2map.github.io"
+  },
+  "author": "Allen Kim<allenhwkim@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ng2-ui/ng2-map/issues"
+  },
+  "homepage": "https://github.com/ng2-ui/ng2-map#readme",
+  "keywords": [
+    "angular2",
+    "google",
+    "map"
+  ]
+}

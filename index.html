@@ -8,51 +8,18 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="https://npmcdn.com/core-js/client/shim.min.js"></script>
     <script src="https://npmcdn.com/zone.js@0.6.12?main=browser"></script>
     <script src="https://npmcdn.com/reflect-metadata@0.1.3"></script>
     <script src="https://npmcdn.com/systemjs@0.19.27/dist/system.src.js"></script>
+    <script src="https://npmcdn.com/typescript/lib/typescript.js"></script>
 
     <script src="systemjs.config.js"></script>
-    <script>System.import('app').catch(function(err){ console.error(err); });</script> </head>
+    <script>System.import('app');</script> </head>
     <style>
-      my-app {
-        display: block;
-        min-height: 500px
-      }
-      my-app h1 {font-size: 1.5em}
-      ng2-map {
-        display: block;
-        width: 70%;
-      }
-      .ls {
-        min-height: 400px;
-        max-height: 500px;
-        overflow: auto;
-        width: 30%;
-        float: right;
-        list-style: none;
-        cursor: pointer;
-        color: #155996;
-      }
-      .social-buttons {line-height: 16px}
-      @media screen and (max-width: 768px) {
-        ng2-map {
-          width: 100%;
-          display: block;
-        }
-        .ls {
-          padding: 0;
-          float: none;
-          min-height: inherit;
-          width: auto;
-        }
-      }
     </style>
-    <script>
-      function reload(id) { window.location.hash = id; window.location.reload(); }
-    </script>
 
   </head>
   <body>
@@ -65,13 +32,6 @@
 
     <section class="main-content">
 
-      <ul class="ls">
-        <h2> Examples </h2>
-        <li onclick="reload('simple-map')">Simple Map</li>
-        <li onclick="reload('simple-marker')">Simple Marker</li>
-        <li onclick="reload('marker-ng-for')">Marker With *ngFor</li>
-        <li onclick="reload('simple-info-window')">Simple InfoWindow</li>
-      </ul>
       <my-app>Loading...</my-app>
 
       <h3>Design Principle</h3>
