@@ -1,8 +1,8 @@
 (function(global) {
   var map = {
     app: "app",
-    '@angular': 'https://npmcdn.com/@angular', // sufficient if we didn't pin the version
-    'rxjs': 'https://npmcdn.com/rxjs@5.0.0-beta.6'
+    '@angular': 'https://unpkg.com/@angular', // sufficient if we didn't pin the version
+    'rxjs': 'https://unpkg.com/rxjs@5.0.0-beta.6'
   };
   var packages = {
     app: { main: './main.ts', defaultExtension: 'ts' },
@@ -17,7 +17,7 @@
     rxjs: { defaultExtension: 'js' }
   };
 
-  map['ng2-map'] = 'https://npmcdn.com/ng2-map/dist';
+  map['ng2-map'] = 'https://unpkg.com/ng2-map/dist';
   packages['ng2-map'] = {main: 'index.js', defaultExtension: 'js'};
 
   System.config({
