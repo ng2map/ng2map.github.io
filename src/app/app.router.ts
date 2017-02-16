@@ -20,7 +20,7 @@ export const router: Routes = [
 	
 	{path: 'simpleMap', component: SimpleMapComponent },
 	{path: 'simpleCircle', component: SimpleCircleComponent},
-	{path: 'simplerMarker', component: SimpleMarkerComponent},
+	{path: 'simpleMarker', component: SimpleMarkerComponent},
 	{path: 'markerNgFor', component: MarkerNgForComponent},
 	{path: 'simpleInforWindow', component: SimpleInfoWindowComponent},
 	{path: 'multiMap', component: MultiMapComponent},

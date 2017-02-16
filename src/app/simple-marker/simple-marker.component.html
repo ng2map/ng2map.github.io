@@ -1,3 +1,27 @@
-<p>
-  simple-marker works!
-</p>
+<div class="map-container">
+<ng2-map center="Brampton, Canada" 
+    (click)="log($event)"
+    [scrollwheel]="false">
+    <marker position="will-fall-back-to-brampton-canada"
+      [geoFallbackPosition]="[43.73154789999999, -79.7449296972229]"
+      (dragstart)="log($event, 'dragstart')"
+      (dragend)="log($event, 'dragend')"
+      draggable="true"></marker>
+</ng2-map>
+
+
+	<h2>HTML</h2>
+	<blockquote>
+		<code>
+		&lt;ng2-map center="Brampton, Canada" <br />
+    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(click)="log($event)"<br />
+    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[scrollwheel]="false"&gt;<br />
+    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;marker position="will-fall-back-to-brampton-canada"<br />
+      		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[geoFallbackPosition]="[43.73154789999999, -79.7449296972229]"<br />
+      		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(dragstart)="log($event, 'dragstart')"<br />
+      		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(dragend)="log($event, 'dragend')"<br />
+      		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;draggable="true"&gt;&lt;/marker&gt;<br />
+  		&lt;/ng2-map&gt;<br />
+		</code>
+	</blockquote>
+</div>
