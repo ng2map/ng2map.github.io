@@ -119,12 +119,12 @@ function getRandomMarkers() {
         t = Math.random() * (43.7399 - 43.73) + 43.73, e = Math.random() * (-79.76 - -79.7699) + -79.7699, n.push([t, e]);
     return n;
 }
-function showMarkersFromObservable() {
-    var t = this;
-    e.Observable.of(this.getRandomMarkers()).subscribe(function (e) {
-        t.positions = e;
-    });
-}
+// function showMarkersFromObservable() {
+//     var t = this;
+//     e.Observable.of(this.getRandomMarkers()).subscribe(function(e) {
+//         t.positions = e
+//     })
+// } 
 //# sourceMappingURL=C:/Users/andrew/Git/acr14.ng2map.github.io/src/marker-ng-for.component.js.map
 
 /***/ },

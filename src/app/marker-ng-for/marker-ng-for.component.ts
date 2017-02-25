@@ -27,9 +27,9 @@ function getRandomMarkers() {
     return n
 }
 
-function showMarkersFromObservable() {
-    var t = this;
-    e.Observable.of(this.getRandomMarkers()).subscribe(function(e) {
-        t.positions = e
-    })
-}
+// function showMarkersFromObservable() {
+//     var t = this;
+//     e.Observable.of(this.getRandomMarkers()).subscribe(function(e) {
+//         t.positions = e
+//     })
+// }
