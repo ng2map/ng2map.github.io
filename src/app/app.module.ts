@@ -55,7 +55,7 @@ import { DataLayerComponent } from './data-layer/data-layer.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    Ng2MapModule,
+    Ng2MapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyCX39r8r3Zf5VGvKfKCjWLgfA0SFmJufPM'}),
     routes
   ],
   providers: [],
