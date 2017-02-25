@@ -1,4 +1,39 @@
 #header {
-	height: 25vh;
-	background-color: blue;
-};
+	height: auto;
+	background-image: url('../../assets/background-2560px.png');
+	width: 100%;
+	background-position: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+div.logo{
+	width: 200px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	flex-direction: column;
+	padding: 15px 0px;
+}
+
+h2{
+	display: block;
+	margin: 0 auto;
+	color: rgba(255, 255, 255, .4);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+img{
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	filter: opacity(.5);
+}
+
+

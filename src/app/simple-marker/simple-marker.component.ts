@@ -22,3 +22,7 @@ export class SimpleMarkerComponent implements OnInit {
   }
 }
 
+
+// function (t, e) {
+//     if (t instanceof MouseEvent) return !1
+// }

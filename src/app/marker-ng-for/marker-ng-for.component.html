@@ -1,3 +1,22 @@
-<p>
-  marker-ng-for works!
-</p>
+<div class="map-container">
+	<ng2-map zoom="13" center="Brampton, Canada">
+    	<marker *ngFor="let pos of positions" [position]="pos"></marker>
+  	</ng2-map>
+  	<button (click)="positions = getRandomMarkers()">Show Random Markers
+  	</button>
+  	<br/>
+  	<button (click)="showMarkersFromObservable()">Show Random Markers From Observable</button>
+
+
+<h1>HTML</h1>
+
+&lt;ng2-map zoom="13" center="Brampton, Canada"&gt;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;marker *ngFor="let pos of positions" [position]="pos"&gt;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/marker&gt;<br />
+&lt;/ng2-map&gt;<br />
+&lt;button (click)="positions = getRandomMarkers()"&gt;Show Random Markers<br />
+&lt;/button&gt;<br />
+&lt;button (click)="showMarkersFromObservable()"&gt;Show Random Markers From Observable<br />
+&lt;/button&gt;
+
+</div>
