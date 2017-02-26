@@ -1150,7 +1150,7 @@ module.exports = ""
 /***/ 711:
 /***/ function(module, exports) {
 
-module.exports = "#header {\r\n\theight: auto;\r\n\tbackground-image: url('../../assets/background-2560px.png');\r\n\twidth: 100%;\r\n\tbackground-position: center;\r\n}\r\n\r\na{\r\n\ttext-decoration: none;\r\n\tcolor: black;\r\n}\r\n\r\ndiv.logo{\r\n\twidth: 200px;\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -ms-flexbox;\r\n\tdisplay: flex;\r\n\tmargin: 0 auto;\r\n\t-webkit-box-pack: center;\r\n\t    -ms-flex-pack: center;\r\n\t        justify-content: center;\r\n\t-webkit-box-orient: vertical;\r\n\t-webkit-box-direction: normal;\r\n\t    -ms-flex-direction: column;\r\n\t        flex-direction: column;\r\n\tpadding: 15px 0px;\r\n}\r\n\r\nh2{\r\n\tdisplay: block;\r\n\tmargin: 0 auto;\r\n\tcolor: rgba(255, 255, 255, .4);\r\n\ttext-transform: uppercase;\r\n\ttext-align: center;\r\n}\r\n\r\nimg{\r\n\twidth: 64px;\r\n\theight: 64px;\r\n\tdisplay: block;\r\n\tmargin: 0 auto;\r\n\tpadding-bottom: 5px;\r\n\t-webkit-filter: opacity(.5);\r\n\t        filter: opacity(.5);\r\n}\r\n\r\n\r\n"
+module.exports = "#header {\r\n\theight: auto;\r\n\tbackground-image: url('assets/background-2560px.png');\r\n\twidth: 100%;\r\n\tbackground-position: center;\r\n}\r\n\r\na{\r\n\ttext-decoration: none;\r\n\tcolor: black;\r\n}\r\n\r\ndiv.logo{\r\n\twidth: 200px;\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -ms-flexbox;\r\n\tdisplay: flex;\r\n\tmargin: 0 auto;\r\n\t-webkit-box-pack: center;\r\n\t    -ms-flex-pack: center;\r\n\t        justify-content: center;\r\n\t-webkit-box-orient: vertical;\r\n\t-webkit-box-direction: normal;\r\n\t    -ms-flex-direction: column;\r\n\t        flex-direction: column;\r\n\tpadding: 15px 0px;\r\n}\r\n\r\nh2{\r\n\tdisplay: block;\r\n\tmargin: 0 auto;\r\n\tcolor: rgba(255, 255, 255, .4);\r\n\ttext-transform: uppercase;\r\n\ttext-align: center;\r\n}\r\n\r\nimg{\r\n\twidth: 64px;\r\n\theight: 64px;\r\n\tdisplay: block;\r\n\tmargin: 0 auto;\r\n\tpadding-bottom: 5px;\r\n\t-webkit-filter: opacity(.5);\r\n\t        filter: opacity(.5);\r\n}\r\n\r\n\r\n"
 
 /***/ },
 
@@ -1297,7 +1297,7 @@ module.exports = "<p>\r\n  ground-overlay works!\r\n</p>\r\n"
 /***/ 732:
 /***/ function(module, exports) {
 
-module.exports = "<div id='header'>\r\n\t<a href=\"https://github.com/ng2-ui/ng2-map\">\r\n\t<div class=\"logo\">\r\n\t\t<img src=\"../../assets/GitHub-Mark-64px.png\">\r\n\t\t<h2>\r\n\t\t\tCheck Out the Repo\r\n\t\t</h2>\r\n\t</div>\r\n\t</a>\r\n</div>\r\n"
+module.exports = "<div id='header'>\r\n\t<a href=\"https://github.com/ng2-ui/ng2-map\">\r\n\t<div class=\"logo\">\r\n\t\t<img src=\"assets/GitHub-Mark-64px.png\">\r\n\t\t<h2>\r\n\t\t\tCheck Out the Repo\r\n\t\t</h2>\r\n\t</div>\r\n\t</a>\r\n</div>\r\n"
 
 /***/ },
 
